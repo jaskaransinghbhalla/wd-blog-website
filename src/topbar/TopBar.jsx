@@ -23,11 +23,11 @@ export default function TopBar() {
         </div>
         <div className='topRight'>
             <img 
-            className='topImage'
+            className='topImg'
             src="https://media.istockphoto.com/photos/headshot-portrait-of-smiling-male-employee-in-office-picture-id1309328823?b=1&k=20&m=1309328823&s=170667a&w=0&h=a-f8vR5TDFnkMY5poQXfQhDSnK1iImIfgVTVpFZi_KU=" 
             alt="" 
             />
-            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <i class="topSearchIcon fa-sharp fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
   )

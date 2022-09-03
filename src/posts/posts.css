@@ -1,0 +1,9 @@
+/* Depending upon the Size of the Page. Make the The Sections move in next or previous row */
+
+
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}

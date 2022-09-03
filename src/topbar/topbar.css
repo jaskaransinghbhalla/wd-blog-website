@@ -12,8 +12,57 @@
 
 .topLeft, .topRight {
     flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topIcon{
+    font-size: 20px;
+
+    margin-right: 10px;
+    /* Changes the Colour of the Icon */
+    color: #444;
+    /* Changes the Cursor on hover */
+    cursor: pointer;
 }
 
 .topCenter{
+    /* Divides the division into space equal to 6 Columsn */
     flex : 6;
 }
+
+.topList{
+    /* Changes to Horizontal Display */
+    display: flex;
+    margin: 0;
+    /* Aligns to Center */
+    justify-content: center;
+    padding: 0;
+    /* Removes the Dot Icon */
+    list-style: none;
+    /* Takes it Over Everything on the Website */
+    z-index: 999;
+}
+.topListItem{
+    /* Introduces Spacing */
+    margin-right: 20px;
+    /* Chagnes Font Size */
+    font-size: 18px;
+    /* Font Weight */
+    font-weight: 300;
+    /* Changes the Cursor */
+    cursor: pointer;
+}
+
+.topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+  }

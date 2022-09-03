@@ -1,0 +1,36 @@
+.header {
+    margin-top: 60px;
+  }
+
+  .headerTitles {
+    /* Changes the Type of Division to Flex */
+    display: flex;
+    /* Changes the Direction of the Flex */
+    flex-direction: column;
+    /* Changes the Alignment in the Flex */
+    align-items: center;
+    /* Chanes the Font */
+    font-family: "Lora", serif;
+    /* Changes the Colour */
+    color: #444;
+  }
+  
+  .headerTitleSm {
+    position: absolute;
+    top: 18%; 
+    font-size: 20px;
+  }
+  
+  .headerTitleLg {
+    /* Sets the absolute position from the top */
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+  }
+  
+  .headerImg {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+  }
