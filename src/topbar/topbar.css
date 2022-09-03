@@ -1,0 +1,19 @@
+.top{
+    width: 100%;
+    height: 50px;
+    /* Keeps it fixed on the top , similar to nav bar */
+    position: sticky;   
+    top: 0;
+    /* Dividdes the childs into parts of a division -> Flex Containters easy to control -> Row and Column Arrangement. */
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.topLeft, .topRight {
+    flex: 3;
+}
+
+.topCenter{
+    flex : 6;
+}
