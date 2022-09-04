@@ -53,7 +53,7 @@
     line-height: 24px;
     color: #444444;
     margin-top: 15px;
-    /* Entire Code Below Wraps the Text and makes it Visible upto 4 lines and after that it is ..... */
+    /* Entire Code Below Wraps the Text and makes it Visible upto 4 lines and after that it is .....  Also If the number of posts in a single line are lest it brings to post to the given line.*/
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
